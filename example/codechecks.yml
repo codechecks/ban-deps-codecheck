@@ -1,5 +1,5 @@
 checks:
-  - name: ./src/index.ts
+  - name: ../src/index.ts
     options:
       - name: node-gyp
         reason: "No native modules please! They make installation much harder"
