@@ -4,7 +4,7 @@ import * as execa from "execa";
 
 export async function getAllProductionDependencies(cwd: string): Promise<Package[]> {
   if (!isYarn(cwd)) {
-    throw new Error("This codecheck supports only yarn!");
+    throw new Error("This codecheck supports only yarn for now!");
   }
 
   const { stdout: packagesRaw } = await execa("yarn list --production --json", { shell: true });

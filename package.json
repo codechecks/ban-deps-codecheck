@@ -44,8 +44,7 @@
     "@codechecks/client": "^0.1.5"
   },
   "dependencies": {
-    "execa": "1",
-    "nodegit": "^0.24.3"
+    "execa": "1"
   },
   "publishConfig": {
     "access": "public"
