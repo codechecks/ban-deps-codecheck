@@ -1,6 +1,6 @@
 <p align="center">
   <h3 align="center">Ban Dependencies Codecheck</h3>
-  <p align="center">Prevent direct or indirect dependencies on your package</p>
+  <p align="center">Prevent direct or indirect production dependencies on your package</p>
 
   <p align="center">
     <a href="https://circleci.com/gh/codechecks/commit-deployment"><img alt="Build Status" src="https://circleci.com/gh/codechecks/commit-deployment/tree/master.svg?style=svg"></a>
@@ -16,6 +16,9 @@ npm install --save-dev @codechecks/ban-deps-codecheck
 
 ## Usage
 
+Are you new to codechecks? Check out [getting started guide (it's simple)](https://github.com/codechecks/docs/blob/master/getting-started.md)!
+
+
 Add to your `codechecks.yml` file:
 
 ```yml
@@ -26,3 +29,10 @@ checks:
         reason: "No native modules please! They make installation much harder"
   # ...
 ```
+
+### 👉 Note:
+- it will check only production dependencies
+- works only with yarn right now
+
+## Contributing
+Have an idea to improve this check? Don't hesitate to create an issue / submit a PR! 
