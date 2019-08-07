@@ -23,7 +23,7 @@ Add to your `codechecks.yml` file:
 
 ```yml
 checks:
-  - name: ./src/index.ts
+  - name: ban-deps-codecheck
     options:
       - name: node-gyp
         reason: "No native modules please! They make installation much harder"
