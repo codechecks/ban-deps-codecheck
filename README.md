@@ -16,8 +16,8 @@ npm install --save-dev @codechecks/ban-deps-codecheck
 
 ## Usage
 
-Are you new to codechecks? Check out [getting started guide (it's simple)](https://github.com/codechecks/docs/blob/master/getting-started.md)!
-
+Are you new to codechecks? Check out
+[getting started guide (it's simple)](https://github.com/codechecks/docs/blob/master/getting-started.md)!
 
 Add to your `codechecks.yml` file:
 
@@ -31,8 +31,10 @@ checks:
 ```
 
 ### 👉 Note:
+
 - it will check only production dependencies
 - works only with yarn right now
 
 ## Contributing
-Have an idea to improve this check? Don't hesitate to create an issue / submit a PR! 
+
+Have an idea to improve this check? Don't hesitate to create an issue / submit a PR!
